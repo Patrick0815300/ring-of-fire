@@ -1,0 +1,25 @@
+.player {
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    width: 300px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+
+    span {
+        font-size: 32px;
+        margin-left: 16px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    img {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+}
+
+.player-active {
+    background-color: orange !important;
+}
